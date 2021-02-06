@@ -1,13 +1,17 @@
 body {
     margin:0;
     padding:0;
+    font-family: 'Poppins', sans-serif;
 }
 
-.navbar {
-    border:solid 2px yellow;
-}
+/* .navbar {
+    background-color:#dea5a4;
+    padding:0;
+    margin:0;
+} */
 
 .first-container {
+    margin:0;
     position: relative;
     padding-top: 8%;
     padding-bottom:8%;
@@ -21,6 +25,11 @@ body {
     font-size:45px;
 }
 
+.main-heading {
+    font-size:60px;
+}
+
+
 .button-section {
     padding-right:5%;
 }
@@ -32,7 +41,7 @@ body {
     text-align: right;
     padding-right:13%;
     overflow: hidden;
-    border: solid 2px green;   
+    background-color:#efcfd4;  
 }
 
 .third-container {
@@ -59,6 +68,10 @@ body {
     padding: 5px 50px 5px 50px;
     color:black;
     cursor:pointer;
+}
+
+button{
+    font-family: inherit;
 }
 
 .project-photo {
