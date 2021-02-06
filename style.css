@@ -127,6 +127,12 @@ a {
     background-color:#efcfd4;  
 }
 
+.icons {
+    font-size:40px;
+    padding-top:0;
+    color:#da9493e1;
+}
+
 .third-container {
     position: relative;
     padding-top: 4%;
