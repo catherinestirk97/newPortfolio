@@ -18,7 +18,22 @@ body {
     text-align: left;
     padding-left: 10%;
     overflow: hidden;
-    border: solid 2px blue;
+    /* border: solid 2px blue; */
+}
+
+.separator-white{
+    text-align:center;
+    font-size:28px;
+    padding-bottom: 1%;
+    color:#dea5a4;
+}
+
+.separator-pink{
+    background-color:#efcfd4;
+    text-align:center;
+    font-size:28px;
+    padding-bottom: 1%;
+    color:#ffffffff;
 }
 
 .heading {
@@ -36,8 +51,8 @@ body {
 
 .second-container {
     position: relative;
-    padding-top: 6%;
-    padding-bottom:6%;
+    padding-top: 5%;
+    padding-bottom:4%;
     text-align: right;
     padding-right:13%;
     overflow: hidden;
@@ -52,7 +67,6 @@ body {
     padding-left:20%;
     text-align: center;
     overflow: hidden;
-    border: solid 2px pink;  
 }
 
 .spacing {
@@ -62,12 +76,31 @@ body {
 
 .btn {
     border-radius:4px;
-    background-color:#9CBA7F;
+    background-color:#dea5a4;
     text-decoration:none;
-    font-size:20px;
+    font-size:18px;
     padding: 5px 50px 5px 50px;
     color:black;
     cursor:pointer;
+}
+
+.btn-style {
+    border-radius:4px;
+    border-color: #dea5a4;
+    background-color:#ffffff;
+    color:black;
+    text-decoration:none;
+    font-size:15px;
+    padding: 5px 30px 5px 30px;
+    cursor:pointer;
+}
+
+.btn-style:hover {
+    background-color:#dea5a4;
+}
+
+.btn-spacing {
+    margin-left:2%;
 }
 
 button{
@@ -78,6 +111,14 @@ button{
     height:auto;
     width:400px;
 }
+
+.fourth-container {
+    text-align:center;
+    background-color:#efcfd4;  
+    padding-top:1%;
+    padding-bottom:1%;
+}
+
 
 @media screen and (min-width:769px){
 
