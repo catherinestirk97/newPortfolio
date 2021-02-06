@@ -255,6 +255,11 @@ img:hover{
     opacity:0.8;
 }
 
+.gold {
+    text-decoration:none;
+    color:gold;
+}
+
 @media screen and (max-width:500px){
     img {
         height:auto;
