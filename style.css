@@ -30,6 +30,45 @@
     border: solid 2px green;   
 }
 
+.third-container {
+    position: relative;
+    padding-top: 4%;
+    padding-bottom:8%;
+    padding-right:20%;
+    padding-left:20%;
+    text-align: center;
+    overflow: hidden;
+    border: solid 2px pink;  
+}
+
+.grid-container {
+    display: grid;
+    grid-column-gap: 40px;
+    grid-row-gap:25px;
+    grid-template-columns: auto auto;
+  /* padding:10px; */
+}
+
+.spacing {
+    padding-left:20px;
+    padding-right:10px;
+}
+
+.btn {
+    border-radius:4px;
+    background-color:#9CBA7F;
+    text-decoration:none;
+    font-size:20px;
+    padding: 5px 50px 5px 50px;
+    color:black;
+    cursor:pointer;
+}
+
+.project-photo {
+    height:auto;
+    width:400px;
+}
+
 /* half screen responsiveness */
 @media screen and (min-width:481px) and (max-width:900px) {
     .first-container {
