@@ -1,0 +1,19 @@
+.first-container {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom:15%;
+    text-align: left;
+    padding-left: 10%;
+    overflow: hidden;
+    border: solid 2px blue;
+}
+
+.second-container {
+    position: relative;
+    padding-top: 15%;
+    padding-bottom:15%;
+    text-align: center;
+    overflow: hidden;
+    border: solid 2px green;   
+}
+
