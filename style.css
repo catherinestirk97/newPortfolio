@@ -10,6 +10,10 @@ body {
     margin:0;
 } */
 
+.fa-heart-o {
+    color:#dea5a4;
+}
+
 .first-container {
     margin:0;
     position: relative;
@@ -40,6 +44,22 @@ body {
     font-size:45px;
 }
 
+.heading-underline-pink {
+    text-decoration: underline #dea5a4;
+}
+
+.heading-underline-white {
+    text-decoration: underline white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a {
+    color:black;
+}
+
 .main-heading {
     font-size:60px;
 }
@@ -51,7 +71,7 @@ body {
 
 .second-container {
     position: relative;
-    padding-top: 5%;
+    padding-top: 4%;
     padding-bottom:4%;
     text-align: right;
     padding-right:13%;
@@ -131,9 +151,16 @@ button{
     }
 }
 
+
 @media screen and (max-width:500px){
-    .first-container .second-container {
+    .first-container {
         text-align:center;
+        padding:0 1%;
+    }
+
+    .second-container {
+        text-align:center;
+        padding:0 1%;
     }
 
     .project-photo {
