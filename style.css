@@ -17,3 +17,10 @@
     border: solid 2px green;   
 }
 
+/* half screen responsiveness */
+@media screen and (min-width:481px) and (max-width:900px) {
+    .first-container {
+        text-align: center;
+        padding-left:0;
+    }
+}
