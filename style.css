@@ -4,11 +4,46 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* .navbar {
-    background-color:#dea5a4;
-    padding:0;
-    margin:0;
-} */
+/* navbar styles */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #dea5a4;
+    width:100vw;
+}
+li {
+    color: #edf0f1;
+    text-decoration:none;
+    align-items: center;
+    font-weight: 300;
+}
+
+.nav_links {
+    list-style:none;
+}
+
+.nav_links li {
+    display:inline-block;
+    padding:0px 80px;
+    font-size:14px;
+}
+
+.nav_links li {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+
+.firstIcon {
+    font-size:60px;
+    padding-left:10px;
+    padding-right:10px;
+}
 
 .fa-heart-o {
     color:#dea5a4;
@@ -30,6 +65,7 @@ body {
     font-size:28px;
     padding-bottom: 1%;
     color:#dea5a4;
+    transition: all 0.3s ease 0s;
 }
 
 .separator-pink{
@@ -38,7 +74,19 @@ body {
     font-size:28px;
     padding-bottom: 1%;
     color:#ffffffff;
+    transition: all 0.3s ease 0s;
 }
+
+.separator-white:hover {
+    cursor: pointer;
+    color:gold;
+}
+
+.separator-pink:hover {
+    cursor: pointer;
+    color:gold;
+}
+
 
 .heading {
     font-size:45px;
@@ -149,6 +197,13 @@ button{
         grid-template-columns: auto auto;
       /* padding:10px; */
     }
+
+    
+    .nav_links li {
+        display:inline-block;
+        padding:0px 200px;
+        font-size:14px;
+    }
 }
 
 
@@ -170,5 +225,11 @@ button{
 
     .btn {
         display:block;
+    }
+
+    .nav_links li {
+        display:inline-block;
+        padding:0px 30px;
+        font-size:14px;
     }
 }
