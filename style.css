@@ -133,6 +133,10 @@ a {
     color:#da9493e1;
 }
 
+.icons:hover{
+    color:white;
+}
+
 .third-container {
     position: relative;
     padding-top: 4%;
