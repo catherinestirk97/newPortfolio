@@ -19,24 +19,37 @@
         <header>
             <nav>
                 <ul class="nav_links">
-                    <li><a href="https://catherinestirk97.github.io/newPortfolio/" class="gold">Home</a></li>
+                    <li><a href="https://catherinestirk97.github.io/newPortfolio/" class="home">Home</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="section">
-            <img src="./images/wordpress.JPG">
-            <img src="./images/sql.PNG">
-            <img src="./images/web.PNG">
-            <img src="./images/microsoft.PNG">
-            <img src="./images/sql2.jpg">
-            <img src="./images/js.jpg">
-            <img src="./images/html.jpg">
-            <img src="./images/css.jpg">
-            <img src="./images/jquery.jpg">
-            <img src="./images/php.jpg">
-            <img src="./images/beginners-analytics.JPG">
-            <img src="./images/advanced-analytics.JPG">
+        <div class="heading-section">
+        <h1 class="heading heading-underline-pink">Certificates</h1>
+        <label for="certificates">Filter by:</label> 
+            <select name="certificates" id="certificates">
+            <option value="default">Choose Option</option>
+            <option value="frontend">Front-end</option>
+            <option value="backend">Back-end</option>
+            <option value="fullstack">Full Stack</option>
+            <option value="SEO">SEO</option>
+            </select>
+            <button onclick="filterCertificates()" class="small-btn"> Go</button>
+            <button onclick="resetCertificates()" class="small-btn">Reset</button>
         </div>
-        <script src="" async defer></script>
+        <div class="section">
+            <img src="./images/wordpress.JPG" class="full-stack ">
+            <img src="./images/sql.PNG" class="back-end ">
+            <img src="./images/web.PNG" class="full-stack ">
+            <img src="./images/microsoft.PNG" class="front-end ">
+            <img src="./images/sql2.jpg" class="back-end ">
+            <img src="./images/js.jpg" class="front-end ">
+            <img src="./images/html.jpg" class="front-end ">
+            <img src="./images/css.jpg" class="front-end ">
+            <img src="./images/jquery.jpg" class="front-end ">
+            <img src="./images/php.jpg" class="back-end ">
+            <img src="./images/beginners-analytics.JPG" class="SEO ">
+            <img src="./images/advanced-analytics.JPG" class="SEO ">
+        </div>
+        <script src="script.js" async defer></script>
     </body>
 </html>
