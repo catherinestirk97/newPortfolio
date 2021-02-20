@@ -32,3 +32,67 @@ function scrollToContact() {
         block: 'start'
       });
 }
+function filterCertificates(){
+  let dropdown = document.getElementById('certificates');
+  let value = dropdown.options[dropdown.selectedIndex].value;
+  let showFrontEnd = document.getElementsByClassName("front-end");
+  let showBackEnd = document.getElementsByClassName("back-end");
+  let showFullStack = document.getElementsByClassName("full-stack");
+  let showSEO = document.getElementsByClassName("SEO");
+  if(value == 'frontend'){
+    for(var i = 0; i <showBackEnd.length; i++){
+      showBackEnd[i].classList.add('hidden');
+    }
+    for(var i = 0; i <showSEO.length; i++){
+      showSEO[i].classList.add('hidden');
+    }
+
+    for(var i = 0; i <showFullStack.length; i++){
+      showFullStack[i].classList.add('hidden');
+    }
+
+    console.log(showFrontEnd);
+  } else if(value == 'backend'){
+    //display only those with the class back-end
+    for(var i = 0; i <showFrontEnd.length; i++){
+      showFrontEnd[i].classList.add('hidden');
+    }
+    for(var i = 0; i <showSEO.length; i++){
+      showSEO[i].classList.add('hidden');
+    }
+
+    for(var i = 0; i <showFullStack.length; i++){
+      showFullStack[i].classList.add('hidden');
+    }
+  } else if(value == "SEO"){
+    //display only those with the class SEO
+    for(var i = 0; i <showFrontEnd.length; i++){
+      showFrontEnd[i].classList.add('hidden');
+    }
+    for(var i = 0; i <showBackEnd.length; i++){
+      showBackEnd[i].classList.add('hidden');
+    }
+
+    for(var i = 0; i <showFullStack.length; i++){
+      showFullStack[i].classList.add('hidden');
+    }
+  } else if(value =="fullstack"){
+    //display only those with the class of fullstack
+    for(var i = 0; i <showFrontEnd.length; i++){
+      showFrontEnd[i].classList.add('hidden');
+    }
+    for(var i = 0; i <showBackEnd.length; i++){
+      showBackEnd[i].classList.add('hidden');
+    }
+
+    for(var i = 0; i <showSEO.length; i++){
+      showSEO[i].classList.add('hidden');
+    }
+  } else {
+    //display all
+  }
+}
+
+function resetCertificates() {
+  location.reload();
+}
