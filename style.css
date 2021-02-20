@@ -278,6 +278,32 @@ select {
     display:none;
 }
 
+.home {
+    text-decoration: none;
+    color:white;
+}
+
+.home:hover {
+    color:gold;
+    cursor:pointer;
+}
+
+.small-btn{
+    background-color:white;
+    border-radius:4px;
+    text-decoration:none;
+    font-size:14px;
+    padding: 5px 30px 5px 30px;
+    color:black;
+    cursor:pointer;
+    border:2px solid #dea5a4;
+    margin-left:15px;
+}
+
+.small-btn:hover {
+    background-color:#dea5a4;
+}
+
 @media screen and (max-width:500px){
     img {
         height:auto;
